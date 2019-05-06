@@ -1,0 +1,24 @@
+{
+  "name": "node2019",
+  "version": "0.0.1",
+  "description": "News propieties for ES2019 ",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel app.js --out-dir dist",
+    "dev": "nodemon app.js --exec babel-node",
+    "start": "nodemon app"
+  },
+  "author": "Victor mosquera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
